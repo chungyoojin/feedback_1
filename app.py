@@ -13,7 +13,7 @@ import numpy as np
 st.title("자동 채점 모델 기반 자동 피드백")
 st.write("**팀원** : 수학교육과 김명식, 김재훈, 김지영, 신인섭, 윤예린, 정유진")
 
-st.subheader("문항1-1")
+st.subheader("문항2-6")
 st.markdown("$A \div 3y/2 = 4x^{2}y + 2xy +6$ 일 때 다항식 $A$ 를 구하시오")
 response = st.text_input('답안 :', "답안을 작성해주세요")
 
@@ -21,16 +21,16 @@ response = st.text_input('답안 :', "답안을 작성해주세요")
 자신의 모델에 맞는 변수 설정해주기
 """
 
-model_name = "1-1_rnn_sp_70" #모델 이름 넣어주기 확장자는 넣지말기!
+model_name = "2-6_rnn_sp_100" #모델 이름 넣어주기 확장자는 넣지말기!
 #모델에 맞는 hyperparameter 설정
-vs = 70 #vocab size
+vs = 100 #vocab size
 emb = 16 #default 값 지정 안했으면 건드리지 않아도 됨
 hidden = 32 #default 값 지정 안했으면 건드리지 않아도 됨
 nh = 4 #default 값 지정 안했으면 건드리지 않아도 됨
 device = "cpu" #default 값 지정 안했으면 건드리지 않아도 됨
 max_len = 100
 #output_d 설정
-output_d = 1 #자기의 모델에 맞는 output_d구하기 (지식요소 개수)
+output_d = 5 #자기의 모델에 맞는 output_d구하기 (지식요소 개수)
 c = cfg(vs=vs, emb=emb, hidden=hidden, nh=nh, device=device)
 
 
