@@ -24,8 +24,8 @@ response = st.text_input('답안 :', "답안을 작성해주세요")
 model_name = "2-6_rnn_sp_100" #모델 이름 넣어주기 확장자는 넣지말기!
 #모델에 맞는 hyperparameter 설정
 vs = 100 #vocab size
-emb = 16 #default 값 지정 안했으면 건드리지 않아도 됨
-hidden = 32 #default 값 지정 안했으면 건드리지 않아도 됨
+emb = 64 #default 값 지정 안했으면 건드리지 않아도 됨
+hidden = 128 #default 값 지정 안했으면 건드리지 않아도 됨
 nh = 4 #default 값 지정 안했으면 건드리지 않아도 됨
 device = "cpu" #default 값 지정 안했으면 건드리지 않아도 됨
 max_len = 100
@@ -66,7 +66,7 @@ if st.button('피드백 받기'):
     output차원에 맞추어 피드백 넣기
     """
     st.write(response)
-    if label[0] == 1:
+    if label[1] == 1:
         st.success('(다항식) 곱하기 (단항식)을 잘하는구나!', icon="✅")
     else :
         st.info('(다항식) 곱하기 (단항식)을 잘 생각해보자!', icon="ℹ️")
