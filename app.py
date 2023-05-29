@@ -21,11 +21,11 @@ response = st.text_input('답안 :', "답안을 작성해주세요")
 자신의 모델에 맞는 변수 설정해주기
 """
 
-model_name = "2-6_rnn_sp_100" #모델 이름 넣어주기 확장자는 넣지말기!
+model_name = "2-6_rnn_sp_92" #모델 이름 넣어주기 확장자는 넣지말기!
 #모델에 맞는 hyperparameter 설정
-vs = 100 #vocab size
-emb = 64 #default 값 지정 안했으면 건드리지 않아도 됨
-hidden = 128 #default 값 지정 안했으면 건드리지 않아도 됨
+vs = 92 #vocab size
+emb = 16 #default 값 지정 안했으면 건드리지 않아도 됨
+hidden = 32 #default 값 지정 안했으면 건드리지 않아도 됨
 nh = 4 #default 값 지정 안했으면 건드리지 않아도 됨
 device = "cpu" #default 값 지정 안했으면 건드리지 않아도 됨
 max_len = 100
