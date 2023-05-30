@@ -53,7 +53,7 @@ st.markdown("$x^{2}y \times 3x^{3}y^{2} $ 를 구하시오")
 
 
 st.subheader("문항2-3")
-st.markdown("6a^{2} b \div 2ab $ 를 구하시오")
+st.markdown("$ 6a^{2} b \div 2ab $ 를 구하시오")
 
 
 st.subheader("문항2-4")
