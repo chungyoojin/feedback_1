@@ -14,7 +14,7 @@ st.title("자동 채점 모델 기반 자동 피드백")
 st.write("**팀원** : 수학교육과 김명식, 김재훈, 김지영, 신인섭, 윤예린, 정유진")
 
 st.subheader("문항1-1")
-st.markdown("$a^{2}\times a^{5} $ 를 구하시오")
+st.markdown("$a^{2} times a^{5} $ 를 구하시오")
 
 
 st.subheader("문항1-2")
@@ -83,11 +83,11 @@ st.markdown("$ 6/5 \left (-10x+15y \right )- 1/2 \left(4x+6y \right )=ax+by$ 라
 
             
 st.subheader("문항3-1")
-st.markdown("$2a \left (a + b \right ) $ 를 구하시오")
+st.markdown("$2a \left (a + b \ right ) $ 를 구하시오")
 
             
 st.subheader("문항3-2")
-st.markdown("$( 8a^{2} + 4ab ) \div 2a 4a + 2b $ 를 구하시오")
+st.markdown("$( 8a^{2} + 4ab ) \div 2a $ 를 구하시오")
 
             
 st.subheader("문항3-3")
