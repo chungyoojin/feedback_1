@@ -37,7 +37,7 @@ st.markdown("$\left (b/3 \right )^{4}$  를 구하시오")
 
 
 st.subheader("문항1-7")
-st.markdown("$\left ( 2^4 \right )^x \times \left ( 2^2 \right )^x = 2^3 \times 2^{ 3x }$ 일 때 자연수 $x$의 값을 구하시오")
+st.markdown("$\left ( 2^4 \right )^x \\times \left ( 2^2 \right )^x = 2^3 \times 2^{ 3x }$ 일 때 자연수 $x$의 값을 구하시오")
 
 
 st.subheader("문항1-8")
@@ -45,11 +45,11 @@ st.markdown("저장 매체의 용량을 나타내는 단위로 $B, KB, MB$등이
 
 
 st.subheader("문항2-1")
-st.markdown("$2x \times 3xy $  를 구하시오")
+st.markdown("$2x \\times 3xy $  를 구하시오")
 
 
 st.subheader("문항2-2")
-st.markdown("$x^{2}y \times 3x^{3}y^{2} $ 를 구하시오")
+st.markdown("$x^{2}y \\times 3x^{3}y^{2} $ 를 구하시오")
 
 
 st.subheader("문항2-3")
@@ -65,7 +65,7 @@ st.markdown("$2 ( 3y^{2} - y + 2 ) - ( y^{2} - 2y + 3 ) 를 구하시오")
 
 
 st.subheader("문항2-6")
-st.markdown("$( - 12x^{3}y^{2} ) \div \square \times 18x^{3}y^{3} = 8x^{2}y^{3}$ 일 때 \square 안에 알맞은 식을 구하시오")
+st.markdown("$( - 12x^{3}y^{2} ) \div \square \\times 18x^{3}y^{3} = 8x^{2}y^{3}$ 일 때 \\square 안에 알맞은 식을 구하시오")
 
             
             
