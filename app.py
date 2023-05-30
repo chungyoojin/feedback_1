@@ -79,7 +79,7 @@ st.markdown("$A = 3x -2y, B = x + 3y$일 때, $3A -2( A - B )$를 $x, y$에 대�
 
             
 st.subheader("문항2-9")
-st.markdown("$ 6/5 \left (-10x+15y \right )- 1/2 \left(4x+6y \right )=ax+by$ 라 할 떄, 상수 $a+b$의 값을 구하시오")
+st.markdown("$ 6/5  (-10x+15y )- 1/2 (4x+6y )=ax+by$ 라 할 떄, 상수 $a+b$의 값을 구하시오")
 
             
 st.subheader("문항3-1")
