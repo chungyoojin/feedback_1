@@ -14,7 +14,7 @@ st.title("자동 채점 모델 기반 자동 피드백")
 st.write("**팀원** : 수학교육과 김명식, 김재훈, 김지영, 신인섭, 윤예린, 정유진")
 
 st.subheader("문항1-1")
-st.markdown("$a^{2} \time a^{5} $ 를 구하시오")
+st.markdown("$a^{2} \times a^{5}$ 를 구하시오")
 
 
 st.subheader("문항1-2")
