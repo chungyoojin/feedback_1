@@ -18,7 +18,7 @@ st.markdown("$a^{2} \\times a^{5}$ 를 구하시오")
 
 
 st.subheader("문항1-2")
-st.markdown("$\left (x^{4} \right )^{3} \times \left(x^{2} \right )^{5} $ 를 구하시오")
+st.markdown("$(x^{4} )^{3} \\times (x^{2} )^{5} $ 를 구하시오")
 
 st.subheader("문항1-3")
 st.markdown("$b^{3} \div b^{6} $ 을 구하시오")
@@ -29,15 +29,15 @@ st.markdown("$a^{12} \div a^{3} \div a^{9} $ 를 구하시오")
 
 
 st.subheader("문항1-5")
-st.markdown("$\left ( 2 a^{4} \right )^{3} $ 을 구하시오")
+st.markdown("$ ( 2 a^{4}  )^{3} $ 을 구하시오")
 
 
 st.subheader("문항1-6")
-st.markdown("$\left (b/3 \right )^{4}$  를 구하시오")
+st.markdown("$( \\frac{b}{3} )^{4}$  를 구하시오")
 
 
 st.subheader("문항1-7")
-st.markdown("$\left ( 2^4 \right )^x \\times \left ( 2^2 \right )^x = 2^3 \times 2^{ 3x }$ 일 때 자연수 $x$의 값을 구하시오")
+st.markdown("$ ( 2^4  )^x \\times  ( 2^2  )^x = 2^3 \\times 2^{ 3x }$ 일 때 자연수 $x$의 값을 구하시오")
 
 
 st.subheader("문항1-8")
@@ -79,11 +79,11 @@ st.markdown("$A = 3x -2y, B = x + 3y$일 때, $3A -2( A - B )$를 $x, y$에 대�
 
             
 st.subheader("문항2-9")
-st.markdown("$ \\frac{6}{5}  (-10x+15y )- \\frac{2}{1} (4x+6y )=ax+by$ 라 할 떄, 상수 $a+b$의 값을 구하시오")
+st.markdown("$ \\frac{5}{6}  (-10x+15y )- \\frac{1}{2} (4x+6y )=ax+by$ 라 할 떄, 상수 $a+b$의 값을 구하시오")
 
             
 st.subheader("문항3-1")
-st.markdown("$2a \left (a + b \ right ) $ 를 구하시오")
+st.markdown("$2a (a + b ) $ 를 구하시오")
 
             
 st.subheader("문항3-2")
@@ -91,7 +91,7 @@ st.markdown("$( 8a^{2} + 4ab ) \div 2a $ 를 구하시오")
 
             
 st.subheader("문항3-3")
-st.markdown("$A \\div \\frac{3y}{2} = 4x^{2}y + 2xy +6$ 일 때 다항식 $A$ 를 구하시오")
+st.markdown("$A \\div \\frac{3}{2} y = 4x^{2}y + 2xy +6$ 일 때 다항식 $A$ 를 구하시오")
 
             
 response = st.text_input('답안 :', "답안을 작성해주세요")
