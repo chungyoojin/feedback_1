@@ -65,7 +65,7 @@ st.markdown("$2 ( 3y^{2} - y + 2 ) - ( y^{2} - 2y + 3 )$ 를 구하시오")
 
 
 st.subheader("문항2-6")
-st.markdown("$( - 12x^{3}y^{2} ) \div \square \\times 18x^{3}y^{3} = 8x^{2}y^{3}$ 일 때 $\\boxed $ 안에 알맞은 식을 구하시오")
+st.markdown("$( - 12x^{3}y^{2} ) \div \square \\times 18x^{3}y^{3} = 8x^{2}y^{3}$ 일 때 $\square $ 안에 알맞은 식을 구하시오")
 
             
             
