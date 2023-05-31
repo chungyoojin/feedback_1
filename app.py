@@ -79,7 +79,7 @@ st.markdown("$A = 3x -2y, B = x + 3y$일 때, $3A -2( A - B )$를 $x, y$에 대�
 
             
 st.subheader("문항2-9")
-st.markdown("$ \frac{6}{5}  (-10x+15y )- \frac{2}{1} (4x+6y )=ax+by$ 라 할 떄, 상수 $a+b$의 값을 구하시오")
+st.markdown("$ \\frac{6}{5}  (-10x+15y )- \\frac{2}{1} (4x+6y )=ax+by$ 라 할 떄, 상수 $a+b$의 값을 구하시오")
 
             
 st.subheader("문항3-1")
@@ -91,7 +91,7 @@ st.markdown("$( 8a^{2} + 4ab ) \div 2a $ 를 구하시오")
 
             
 st.subheader("문항3-3")
-st.markdown("$A \div \frac{3y}{2} = 4x^{2}y + 2xy +6$ 일 때 다항식 $A$ 를 구하시오")
+st.markdown("$A \\div \\frac{3y}{2} = 4x^{2}y + 2xy +6$ 일 때 다항식 $A$ 를 구하시오")
 
             
 response = st.text_input('답안 :', "답안을 작성해주세요")
