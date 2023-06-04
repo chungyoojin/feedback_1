@@ -73,7 +73,7 @@ if st.button('피드백 받기'):
             if label[1] == 1:
                             if label[2] == 1: st.success('다항식의 나눗셈을 잘하는구나!', icon="✅")
                             else : st.info('다항식의 나눗셈을 복습해볼까?', icon="ℹ️")
-                                   st.success('거듭제곱의 곱셈을 잘하는구나!', icon="✅")
+               st.success('거듭제곱의 곱셈을 잘하는구나!', icon="✅")
             else: st. info('거듭제곱의 곱셈을 복습해볼끼?', icon="ℹ️")
         st.success('곱의 거듭제곱을 잘하는구나!', icon="✅")
 
