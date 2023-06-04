@@ -12,7 +12,7 @@ st.write("**팀원** : 수학교육과 김명식, 김재훈, 김지영, 신인�
 
 st.subheader("문항2-7")
 st.markdown("높이가 $( 2x )^{2} $인 삼각형의 넓이가 $48x^{3}y^{2}$일 때 이 삼각형의 밑변의 길이를 구하시오")
-response = st.text_input('답안 :', "답안을 작성해주세요")
+response = st.text_input('답안 :', "답안을 작성해주세요", key='answer_input_2_7')
 
 
 model_name_2_7 = "2-7_kc_rnn_sp_92" #모델 이름 넣어주기 확장자는 넣지말기!
