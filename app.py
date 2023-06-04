@@ -55,7 +55,7 @@ if st.button('피드백 받기', key='button2_7_1'):
     #output차원에 맞추어 피드백 넣기
     
     st.write(response)
-    if len(label_2_7)>= 5
+    if len(label_2_7)>= 5 :
          if label_2_7[0] == 1 and label_2_7[1] == 1 and label_2_7[2] == 1 and label_2_7[3] == 1 and label_2_7[4] == 1 and label_2_7[6] == 1 :
             st.success('구하고자 하는 것을 미지수로 설정하여 곱의 거듭제곱과 거듭제곱의 나눗셈, 다항식의 나눗셈을 이용하여 삼각형의 넓이를 잘 구했구나!', icon="✅")
          elif label_2_7[0] == 1 and label_2_7[1] == 1 and label_2_7[2] == 1 and label_2_7[3] == 1 and label_2_7[4] == 0 :
