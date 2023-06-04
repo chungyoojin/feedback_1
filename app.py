@@ -29,7 +29,7 @@ c = cfg(vs=vs, emb=emb, hidden=hidden, nh=nh, device=device)
 
 
 
-model = RNNModel(output_d, c) #RNNModel 쓰는경우
+model = RNNModel(output_d_2_7, c) #RNNModel 쓰는경우
 # model = LSTMModel(output_d, c) #LSTMModel 쓰는경우
 # model = ATTModel(output_d, c) #ATTModel 쓰는경우
 
