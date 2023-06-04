@@ -47,19 +47,41 @@ if l < max_len :
 else : pad = enc[l-max_len:]
 pad_ten = torch.tensor(pad)
 pad_ten = pad_ten.reshape(1,max_len)
-y = model(pad_ten)
-label = y.squeeze().detach().cpu().numpy().round()
+y = model_2_7(pad_ten)
+label_2_7 = y.squeeze().detach().cpu().numpy().round()
 
-if st.button('피드백 받기'):
-    """
-    output차원에 맞추어 피드백 넣기
-    """
+if st.button('피드백 받기', key='button2_7_1'):
+    
+    #output차원에 맞추어 피드백 넣기
+    
     st.write(response)
-    if label[1] == 1:
-        st.success('(다항식) 곱하기 (단항식)을 잘하는구나!', icon="✅")
-    else :
-        st.info('(다항식) 곱하기 (단항식)을 잘 생각해보자!', icon="ℹ️")
-else : 
+    if len(label_2_7)>= 5
+         if label_2_7[0] == 1 and label_2_7[1] == 1 and label_2_7[2] == 1 and label_2_7[3] == 1 and label_2_7[4] == 1 and label_2_7[6] == 1 :
+            st.success('구하고자 하는 것을 미지수로 설정하여 곱의 거듭제곱과 거듭제곱의 나눗셈, 다항식의 나눗셈을 이용하여 삼각형의 넓이를 잘 구했구나!', icon="✅")
+         elif label_2_7[0] == 1 and label_2_7[1] == 1 and label_2_7[2] == 1 and label_2_7[3] == 1 and label_2_7[4] == 0 :
+            st.success('곱의 거듭제곱과 거듭제곱의 나눗셈, 다항식의 나눗셈을 이용하여 삼각형의 넓이를 거의 구했구나! 중간 과정에 실수가 없는지 확인해보자!', icon="ℹ️")
+         elif label_2_7[0] == 1 and label_2_7[1] == 1 and label_2_7[2] == 1 and label_2_7[3] == 0 and label_2_7[4] == 0 :
+            st.success('곱의 거듭제곱을 잘 이용했구나! 삼각형의 넓이를 구하는 방법과 다항식의 나눗셈 과정을 다시 한 번 확인해보자!', icon="ℹ️")
+         elif label_2_7[0] == 1 and label_2_7[1] == 1 and label_2_7[2] == 0 and label_2_7[3] == 0 and label_2_7[4] == 0 :
+            st.success('곱의 거듭제곱을 잘 이용했구나! 다항식의 나눗셈 과정을 다시 한 번 확인해보자!', icon="ℹ️")
+         elif label_2_7[0] == 1 and label_2_7[1] == 0 and label_2_7[2] == 0 and label_2_7[3] == 0 and label_2_7[4] == 0 :
+            st.success('곱의 거듭제곱을 잘 이용했구나! 다항식의 나눗셈 과정을 다시 한 번 확인해보자!', icon="ℹ️")
+         elif label_2_7[0] == 0 and label_2_7[1] == 0 and label_2_7[2] == 0 and label_2_7[3] == 0 and label_2_7[4] == 0 and label_2_7[6] == 1:
+            st.success('곱의 거듭제곱 계산과 다항식의 나눗셈 과정을 다시 한 번 확인해보자!', icon="ℹ️")
+         else :   
+            st.info('곱의 거듭제곱 계산과 다항식의 나눗셈 과정을 복습하자!', icon="⚠️")
+
     st.button('피드백 받기 버튼을 눌러보세요!')
+if st.button('삼각형의 넓이는?', key='button2_7_2'):
+    st.write('(삼각형의 넓이)=(밑변)x(높이)÷2')
+
+
+if st.button('힌트', key='button2_7_3'):
+    st.write('곱의 거듭제곱과 다항식의 나눗셈을 이용하여 식을 정리하세요!')
+
+
+if st.button('모범답안', key='button2_7_4'):
+    image_path = "save/2-7 모범답안.png-.png"
+    st.image(image_path, caption='2-7모범답안')
 
     
