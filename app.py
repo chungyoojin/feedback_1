@@ -15,7 +15,7 @@ st.markdown("높이가 $( 2x )^{2} $인 삼각형의 넓이가 $48x^{3}y^{2}$일
 response = st.text_input('답안 :', "답안을 작성해주세요")
 
 
-model_name = "2-7_kc_rnn_sp_92" #모델 이름 넣어주기 확장자는 넣지말기!
+model_name_2_7 = "2-7_kc_rnn_sp_92" #모델 이름 넣어주기 확장자는 넣지말기!
 #모델에 맞는 hyperparameter 설정
 vs = 92 #vocab size
 emb = 16 #default 값 지정 안했으면 건드리지 않아도 됨
