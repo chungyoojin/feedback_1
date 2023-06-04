@@ -103,5 +103,3 @@ st.image(image_path, caption='2-7모범답안')
 
 
 
-st.write("여기 누군가 적어주세요ㅠㅠ"
-    
