@@ -24,7 +24,7 @@ nh = 4 #default 값 지정 안했으면 건드리지 않아도 됨
 device = "cpu" #default 값 지정 안했으면 건드리지 않아도 됨
 max_len = 100
 #output_d 설정
-output_d = 5 #자기의 모델에 맞는 output_d구하기 (지식요소 개수)
+output_d_2_7 = 7 #자기의 모델에 맞는 output_d구하기 (지식요소 개수)
 c = cfg(vs=vs, emb=emb, hidden=hidden, nh=nh, device=device)
 
 
@@ -33,10 +33,10 @@ model = RNNModel(output_d, c) #RNNModel 쓰는경우
 # model = LSTMModel(output_d, c) #LSTMModel 쓰는경우
 # model = ATTModel(output_d, c) #ATTModel 쓰는경우
 
-model.load_state_dict(torch.load("./save/"+model_name+".pt"))
+model.load_state_dict(torch.load("./save/"+model_name_2_7+".pt"))
 
 #자신에게 맞는 모델로 부르기
-tokenizer = AutoTokenizer.from_pretrained("./save/"+ model_name) #sp tokenizer 쓰는 경우
+tokenizer_2_7 = AutoTokenizer.from_pretrained("./save/"+ model_name) #sp tokenizer 쓰는 경우
 # tokenizer = BertTokenizer.from_pretrained("./save/"+model_name+"-vocab.txt") #bw tokenizer 쓰는경우
 
 enc = tokenizer(response)["input_ids"] #sp tokenizer
