@@ -39,7 +39,7 @@ model_2_7.load_state_dict(torch.load("./save/"+model_name_2_7+".pt"))
 tokenizer_2_7 = AutoTokenizer.from_pretrained("./save/"+ model_name_2_7) #sp tokenizer 쓰는 경우
 # tokenizer = BertTokenizer.from_pretrained("./save/"+model_name+"-vocab.txt") #bw tokenizer 쓰는경우
 
-\ enc = tokenizer_2_7(response)["input_ids"] #sp tokenizer
+enc=tokenizer_2_7(response)["input_ids"] #sp tokenizer
 # enc = tokenizer.encode(response) #bw tokenizer
 l = len(enc)
 if l < max_len :
