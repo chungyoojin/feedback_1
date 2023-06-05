@@ -81,7 +81,7 @@ if st.button('힌트', key='button2_7_3'):
 
 
 if st.button('모범답안', key='button2_7_4'):
-    image_path = "save/2-7 모범답안.png-.png"
+    image_path = "모범답안.png"
     st.image(image_path, caption='2-7모범답안')
 
     
